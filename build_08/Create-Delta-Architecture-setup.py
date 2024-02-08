@@ -28,3 +28,5 @@ class DBAcademyHelper():
             spark.sql(f"DROP SCHEMA IF EXISTS {c}.{self.schema} CASCADE")
 
 da = DBAcademyHelper(catalog=dbutils.widgets.get('catalog'))
+
+##
